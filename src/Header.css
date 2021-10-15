@@ -1,0 +1,166 @@
+
+
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header--logo{
+    width: 100px;
+    margin: 0 20px;
+    margin-top: 18px;
+    object-fit: contain;
+}
+
+.header--logoIn{
+    color: white;
+    font-size: 13.5px;
+    font-family: inherit;
+    margin: -1px 11px 0 -20px;
+}
+
+.header--LocationOnOutlinedIcon{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-top: 14px;
+    max-height: 20px;
+    max-width: -22px;
+}
+
+
+.header--LocationOption{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    padding-right: 20px;
+}
+
+.header--optionLocationTwo{
+    font-size: 13px;
+    font-weight: 700;     
+}
+
+.header--optionLocationOne{
+    font-size: 11px;
+}
+
+.header--OptionAll{
+    display: flex;
+    margin-right: -50px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+
+.header--select{
+    display: flex;
+    background-color: aliceblue;
+    height: 35px;
+    width: 55px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: none;
+    z-index: 1;
+}
+
+.header--select:hover{
+    background-color: lightgrey;
+}
+
+
+.header--search{
+    display: flex;
+    flex: 1;
+    align-items: center;   
+}
+
+.header--searchInput{
+    padding: 10px;
+    height: 14px;
+    border: none;
+    width: 100%;
+}
+
+.header--SearchIcon{
+    background-color: #F3A847;
+    padding: 5px;
+    height: 24px;
+    margin-left: -34px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.header--flagArrow{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header--flag{
+    display: flex;
+    width: 24px;
+    margin: 0 20px 0;
+    margin-top: 9px;
+    object-fit: contain;
+    border-radius: 1px;
+    align-items: center;
+}
+
+.header-Arrow{
+    position: absolute;
+    color: grey;
+    margin-left: 42px;
+    margin-top: 6px;
+}
+
+.header--nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header--option{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header--optionLineOne{
+    font-size: 11px;
+}
+
+.header--optionLinetwo{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.header--optionBasket{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 4px;
+    margin-top: 7px;
+}
+
+.header--basketCart{
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.header--basketCount{
+    margin-left: 8px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
